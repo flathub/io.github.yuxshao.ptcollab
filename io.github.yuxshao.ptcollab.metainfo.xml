@@ -7,6 +7,11 @@
   <summary>Sample-based music editor where you can collaborate with friends!</summary>
   <developer_name>pxtone collab</developer_name>
 
+  <branding>
+    <color type="primary" scheme_preference="light">#4e4b61</color>
+    <color type="primary" scheme_preference="dark">#4e4b61</color>
+  </branding>
+
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <screenshots>
