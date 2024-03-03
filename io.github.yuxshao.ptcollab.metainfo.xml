@@ -2,9 +2,10 @@
 <component type="desktop-application">
   <id>io.github.yuxshao.ptcollab</id>
  
-  <name>pxtone Collab</name>
+  <name>pxtone collab</name>
   <icon type="remote" height="512" width="512">https://raw.githubusercontent.com/yuxshao/ptcollab/master/res/app_icons/scalable/ptcollab.svg</icon>
   <summary>Sample-based music editor where you can collaborate with friends!</summary>
+  <summary>Multiplayer Music Sequencer</summary>
   <developer_name>pxtone collab</developer_name>
 
   <branding>
@@ -21,10 +22,7 @@
   
   <description>
     <p>
-      Unofficial flatpak package of pxtone Collab
-    </p>
-    <p>
-      About: pxtone collab (ptcollab) is a sample-based music editor where you can collaborate with friends! It&apos;s based off the music engine of pxtone, a music editor developed by Pixel, the creator of Cave Story and Kero Blaster.
+      About: pxtone collab (ptcollab) is a sample-based music editor where you can collaborate with friends! It&apos;s based off the music engine of pxtone, a music editor developed by Daisuke "Pixel" Amaya, the creator of Cave Story and Kero Blaster.
     </p>
     <p>
       Features: ptcollab has many standard features you might expect from a music editor. If you&apos;ve used pxtone collage before, the following will be familiar:
@@ -42,6 +40,9 @@
 	  <li>Session recording: save a frame-by-frame recording of a session and play it back later!</li>
       <li>MIDI input: Record notes either live while the song is playing, or using keyboard controls to step through time.</li>
     </ul>
+    <p>
+      This is a unofficial flatpak package, approved by the community.
+    </p>
   </description>
   <url type="homepage">https://yuxshao.github.io/ptcollab/</url>
   <url type="vcs-browser">https://github.com/yuxshao/ptcollab</url>
