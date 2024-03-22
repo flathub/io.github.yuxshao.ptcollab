@@ -40,7 +40,7 @@
       <li>MIDI input: Record notes either live while the song is playing, or using keyboard controls to step through time.</li>
     </ul>
     <p>
-      This is a unofficial flatpak package, approved by the community.
+      While this package isn&apos;t mantained by the app dev, it is approved by him.
     </p>
   </description>
   <url type="homepage">https://yuxshao.github.io/ptcollab/</url>
