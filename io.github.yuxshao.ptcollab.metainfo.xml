@@ -5,7 +5,7 @@
   <name>pxtone collab</name>
   <icon type="remote" height="512" width="512">https://raw.githubusercontent.com/yuxshao/ptcollab/master/res/app_icons/scalable/ptcollab.svg</icon>
   <summary>Multiplayer Music Sequencer</summary>
-  <developer_name>pxtone collab</developer_name>
+  <developer id="io.github.yuxshao"><name>pxtone collab</name></developer>
 
   <branding>
     <color type="primary" scheme_preference="light">#4e4b61</color>
@@ -15,8 +15,12 @@
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <screenshots>
-    <screenshot type="default"><image>https://raw.githubusercontent.com/germe-deb/io.github.yuxshao.ptcollab/58ce0534e5fb0d7e230eb196418c9c5ecf4a0208/screenshots/1stscreenshot.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/germe-deb/io.github.yuxshao.ptcollab/58ce0534e5fb0d7e230eb196418c9c5ecf4a0208/screenshots/2ndscreenshot.png</image></screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/germe-deb/io.github.yuxshao.ptcollab/58ce0534e5fb0d7e230eb196418c9c5ecf4a0208/screenshots/1stscreenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/germe-deb/io.github.yuxshao.ptcollab/58ce0534e5fb0d7e230eb196418c9c5ecf4a0208/screenshots/2ndscreenshot.png</image>
+    </screenshot>
   </screenshots>
   
   <description>
@@ -49,6 +53,9 @@
   <url type="help">https://yuxshao.github.io/ptcollab/guide.html</url>
   <launchable type="desktop-id">io.github.yuxshao.ptcollab.desktop</launchable>
   <releases>
+    <release version="v0.6.4.11" date="2026-01-20"/>
+    <release version="v0.6.4.10" date="2026-01-16"/>
+    <release version="v0.6.4.9" date="2025-04-15"/>
     <release version="v0.6.4.8" date="2024-02-16"/>
     <release version="v0.6.4.7" date="2023-07-05"/>
     <release version="v0.6.4.6" date="2023-07-02"/>
