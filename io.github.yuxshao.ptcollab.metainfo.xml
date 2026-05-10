@@ -5,7 +5,9 @@
   <name>pxtone collab</name>
   <icon type="remote" height="512" width="512">https://raw.githubusercontent.com/yuxshao/ptcollab/master/res/app_icons/scalable/ptcollab.svg</icon>
   <summary>Multiplayer Music Sequencer</summary>
-  <developer id="io.github.yuxshao"><name>pxtone collab</name></developer>
+  <developer id="io.github.yuxshao">
+	  <name>pxtone collab</name>
+  </developer>
 
   <branding>
     <color type="primary" scheme_preference="light">#4e4b61</color>
@@ -25,7 +27,8 @@
   
   <description>
     <p>
-      About: pxtone collab (ptcollab) is a sample-based music editor where you can collaborate with friends! It&apos;s based off the music engine of pxtone, a music editor developed by Daisuke "Pixel" Amaya, the creator of Cave Story and Kero Blaster.
+      About: pxtone collab (ptcollab) is a sample-based music editor where you can collaborate with friends! It&apos;s based off the music engine of pxtone, 
+		a music editor developed by Daisuke "Pixel" Amaya, the creator of Cave Story and Kero Blaster.
     </p>
     <p>
       Features: ptcollab has many standard features you might expect from a music editor. If you&apos;ve used pxtone collage before, the following will be familiar:
