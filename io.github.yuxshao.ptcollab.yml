@@ -1,6 +1,6 @@
 id: io.github.yuxshao.ptcollab
 runtime: org.kde.Platform
-runtime-version: '5.15-23.08'
+runtime-version: '5.15-25.08'
 sdk: org.kde.Sdk
 command: ptcollab
 rename-icon: ptcollab
@@ -12,16 +12,29 @@ finish-args:
   - --socket=pulseaudio
   - --socket=x11
   - --filesystem=home
+cleanup:
+  - /include
+  - /share/doc
+  - /lib/pkgconfig
 modules:
+  - name: rtmidi
+    buildsystem: cmake-ninja
+    cleanup:
+      - /share
+    config-opts:
+      - -DRTMIDI_BUILD_TESTING=OFF
+    sources:
+      - type: archive
+        url: https://github.com/thestk/rtmidi/archive/6.0.0.tar.gz
+        sha256: ef7bcda27fee6936b651c29ebe9544c74959d0b1583b716ce80a1c6fea7617f0
+
   - name: ptcollab
     buildsystem: cmake
-    config-opts:
-      - -DSYSTEM_RTMIDI=OFF
     sources:
-      - type: git
-        url: https://github.com/yuxshao/ptcollab.git
-        tag: "v0.6.4.8"
+      - type: archive
+        url: https://github.com/yuxshao/ptcollab/archive/v0.6.4.11.tar.gz
+        sha256: 869da037454358ff96cd1bd54f3da37ed9610abd877a8a56962c9886f93ad045
       - type: file
         path: io.github.yuxshao.ptcollab.metainfo.xml
     post-install:
-      - install -Dm644 io.github.yuxshao.ptcollab.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - install -Dm644 io.github.yuxshao.ptcollab.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo/
